@@ -266,7 +266,7 @@ function addEmployee() {
       {
         type: 'input',
         name: 'lastName',
-        message: "What is the Last name of your new employee?",
+        message: "What is the last name of your new employee?",
         validate: input => {
           if (input && input.length <= 30) {
             return true;
@@ -413,7 +413,7 @@ function updateEmployeeManager() {
       inquirer.prompt([{
         type: 'list',
         name: 'manager',
-        message: `Who is the emplyoee's new manager?`,
+        message: `Who is the employee's new manager?`,
         choices: employeeArray
       }]).then(function (data3) {
         let manager = data3.manager;
