@@ -35,9 +35,6 @@ THEN I am prompted to select an employee to update and their new role and this i
 ### Demo
 View the demo [here](https://www.youtube.com/watch?v=o-5Vft2VD1Q)
 
-### Link
-You can view the site [here](https://employee-system0.herokuapp.com/)
-
 ---
 
 ### License
